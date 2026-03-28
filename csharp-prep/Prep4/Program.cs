@@ -48,6 +48,7 @@ class Program
         Console.WriteLine($"The largest number in your list is: {Max}");
         Console.WriteLine($"The smallest number in your list is : {Min}");
         Console.WriteLine("Your numbers sorted from smallest to largest:");
+        
         foreach (float Number in Numbers)
         {
             Console.WriteLine(Number);
